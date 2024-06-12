@@ -19,7 +19,7 @@
     "noFallthroughCasesInSwitch": true,
     "sourceRoot": "/",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*.ts", "./src/*.js"]
     }
   }
 }

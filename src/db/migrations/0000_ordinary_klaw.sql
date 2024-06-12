@@ -16,7 +16,10 @@ CREATE TABLE IF NOT EXISTS "products" (
 	"name" varchar(256) NOT NULL,
 	"expiry_date" date,
 	"season_start_date" date,
-	"season_end_date" date
+	"season_end_date" date,
+	"flash_sale_start_date" date,
+	"flash_sale_end_date" date,
+	"max_quantity" integer DEFAULT 0 NOT NULL
 );
 --> statement-breakpoint
 DO $$ BEGIN
